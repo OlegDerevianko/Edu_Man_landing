@@ -7,32 +7,111 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/main.css" />
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div>
-                <nav>
-                    EduMan
-                    <ul>
-                        <li>Home</li>
-                        <li>Courses</li>
-                        <li>Pages</li>
-                        <li>Blog</li>
-                        <li>Contacts</li>
-                    </ul>
-                </nav>
-            </div>
-            <div>
-                <ul>
-                    <li>Search</li>
-                    <li>Buy</li>
-                    <li>login / Register</li>
-                </ul>
-            </div>
+    <header class="header">
+    <div class="container">
+        <div class="logo">
+            <ul class="logo-list">
+                <li class="logo-item">
+                    <svg class="book-icon" width="31px" height="22px" aria-hidden="true">
+                        <use href="./images/icons.svg#icon-book"></use>
+                    </svg>
+                </li>
+                <li class="logo-item">
+                    <span class="edu-logo">Edu</span>
+                    <span class="man-logo">Man</span>
+                </li>
+            </ul>
         </div>
+        <div>
+            <button class="button-courses">
+                Courses
+                <svg class="arrow-icon" width="11px" height="6px" aria-hidden="true">
+                    <use href="./images/icons.svg#icon-arrow"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">Home
+                    <svg class="arrow-down-icon" width="29px" height="29px" aria-hidden="true">
+                        <use href="./images/icons.svg#icon-arrow-down"></use>
+                    </svg>
+
+                </li>
+                <li class="nav-item">Courses
+                    <svg class="arrow-down-icon" width="29px" height="29px" aria-hidden="true">
+                        <use href="./images/icons.svg#icon-arrow-down"></use>
+                    </svg>
+
+                </li>
+                <li class="nav-item">Pages
+                    <svg class="arrow-down-icon" width="29px" height="29px" aria-hidden="true">
+                        <use href="./images/icons.svg#icon-arrow-down"></use>
+                    </svg>
+
+                </li>
+                <li class="nav-item">Blog
+                    <svg class="arrow-down-icon" width="29px" height="29px" aria-hidden="true">
+                        <use href="./images/icons.svg#icon-arrow-down"></use>
+                    </svg>
+
+                </li>
+                <li class="nav-item">Contacts
+
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="reg-list">
+                <li class="reg-item">
+                    <svg class="search-icon" width="20px" height="20px" aria-hidden="true">
+                    <use href="./images/icons.svg#icon-search"></use>
+                </svg>
+            </li>
+                <li class="reg-item">
+                    <svg class="buy-icon" width="20px" height="20px" aria-hidden="true">
+                        <use href="./images/icons.svg#icon-buy"></use>
+                    </svg>
+                </li>
+                <li class="reg-item"><button class="reg-button">Login \ Register</button></li>
+            </ul>
+        </div>
+    </div>
+        
     </header>
+    <main>
+        <div class="hero">
+            <ul class="hero-list">
+                <li class="hero-item">
+                    <h1 class="h1">Online E-Learing Courses</h1>
+                </li>
+                <li class="hero-item">
+                    <h2 class="h2">
+                        <span class="edu">Education</span> 
+                        is Create Better Future</h2>
+                </li>
+                <li class="hero-item">
+                    It is long established fact that reader distracted by the readable content.
+                </li>
+            </ul>
+            <ul class="buttons-hero">
+                <li class="buttons-item">
+                    <button class="courses-btn">All Courses</button>
+                </li>
+                <li class="buttons-item">
+                    <button class="contact-btn">Contact Us</button>
+                </li>
+            </ul>
+            
+            
+            
+            3k + Happy Students
+
+        </div>
+    </main>
     
 </body>
 </html>

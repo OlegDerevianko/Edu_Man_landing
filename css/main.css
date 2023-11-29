@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+  font-style: normal;
+}
+
+address {
+  text-decoration: none;
+  font-style: normal;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+ul {
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1920px;
+  display: inline-flex;
+  padding: 34px 127px;
+  align-items: center;
+  gap: 156px;
+  margin: 0 10px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-list {
+  display: flex;
+  padding: 8px 17px 0 0;
+  margin: 0;
+}
+
+.logo-item {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.logo-item:last-child {
+  margin-right: 0;
+}
+
+.book-logo {
+  justify-content: center;
+}
+
+.edu-logo {
+  color: #002935;
+  font-family: Urbanist;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  /* 42px */
+}
+
+.man-logo {
+  color: #002935;
+  font-family: Urbanist;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.button-courses {
+  display: flex;
+  padding: 13px 23px;
+  justify-content: center;
+  align-items: center;
+  gap: 112px;
+  border-radius: 4px;
+  border: 1px solid #ACB5C5;
+  background-color: #FFF;
+}
+
+.nav-list {
+  color: #222;
+  font-family: Urbanist;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  /* 25.5px */
+  display: flex;
+  padding: 0;
+  color: var(--Title, #10243C);
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  /* 25.5px */
+}
+
+.nav-item {
+  margin-right: 30px;
+  display: flex;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.arrow-down-icon {
+  margin-left: 4px;
+}
+
+.reg-list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.reg-item {
+  display: flex;
+  margin-right: 18px;
+}
+
+.reg-item:last-child {
+  margin-right: 0;
+}
+
+.reg-button {
+  width: 158px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--Primary, #0D5FF9);
+  color: var(--White, #FFF);
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  /* 25.5px */
+}
+
+.hero {
+  max-width: 1920px;
+  background-color: #002935;
+  padding-left: 395px;
+  padding-top: 221px;
+}
+
+.hero-list {
+  color: #FFF;
+}
+
+.hero-item {
+  margin-bottom: 30px;
+}
+
+.h1 {
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Urbanist;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  /* 32.5px */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.h2 {
+  color: #FFF;
+  font-family: Urbanist;
+  font-size: 82px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 129%;
+}
+
+.edu {
+  color: var(--Primary, #0D5FF9);
+  font-family: Urbanist;
+  font-size: 82px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 129%;
+  /* 105.78px */
+}
+
+.buttons-hero {
+  display: flex;
+}
+
+.buttons-item {
+  margin-right: 26px;
+}
+
+.courses-btn {
+  width: 173px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #0D5FF9;
+  color: var(--White, #FFF);
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  /* 25.5px */
+}
+
+.contact-btn {
+  width: 173px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  background-color: #002935;
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  /* 25.5px */
+}
+
+/*# sourceMappingURL=main.css.map */

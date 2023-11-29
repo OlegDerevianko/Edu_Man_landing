@@ -1,0 +1,128 @@
+.header {
+    display: flex;
+    justify-content: center;
+
+}
+.container {
+    max-width: 1920px;
+        display: inline-flex;
+        padding: 34px 127px;
+        align-items: center;
+        gap: 156px;
+        margin: 0 10px;
+}
+.logo {
+    display: flex;
+    // flex-direction: column;
+    justify-content: center;
+ 
+}
+.logo-list {
+    display: flex;
+    padding: 8px 17px 0 0;
+    margin: 0;
+    
+}
+.logo-item {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+
+}
+.logo-item:last-child {
+    margin-right: 0;
+}
+.book-logo {
+    justify-content: center;
+
+}
+.edu-logo {
+    color: #002935;
+    
+        font-family: Urbanist;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        /* 42px */
+}
+.man-logo {
+    color: #002935;
+        font-family: Urbanist;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+}
+.button-courses {
+    display: flex;
+        padding: 13px 23px;
+        justify-content: center;
+        align-items: center;
+        gap: 112px;
+    border-radius: 4px;
+    border: 1px solid #ACB5C5;
+    background-color: #FFF;
+}
+
+
+.nav-list {
+    color: #222;
+    
+        font-family: Urbanist;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        /* 25.5px */
+    display: flex;
+    padding: 0;
+    color: var(--Title, #10243C);
+        text-align: center;
+        font-family: Urbanist;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        /* 25.5px */
+}
+.nav-item {
+    margin-right: 30px;
+    display: flex;
+
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+.arrow-down-icon {
+    margin-left: 4px;
+}
+.reg-list {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.reg-item {
+    display: flex;
+    margin-right: 18px;
+}
+.reg-item:last-child {
+    margin-right: 0;
+}
+
+.reg-button {
+    width: 158px;
+    height: 55px;    
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--Primary, #0D5FF9);
+    color: var(--White, #FFF);
+        text-align: center;
+        font-family: Urbanist;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        /* 25.5px */
+}
