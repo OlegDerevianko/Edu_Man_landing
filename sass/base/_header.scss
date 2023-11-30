@@ -1,7 +1,6 @@
 .header {
     display: flex;
     justify-content: center;
-
 }
 .container {
     max-width: 1920px;
@@ -14,14 +13,12 @@
 .logo {
     display: flex;
     // flex-direction: column;
-    justify-content: center;
- 
+    justify-content: center; 
 }
 .logo-list {
     display: flex;
     padding: 8px 17px 0 0;
-    margin: 0;
-    
+    margin: 0;    
 }
 .logo-item {
     display: inline-flex;
@@ -34,11 +31,9 @@
 }
 .book-logo {
     justify-content: center;
-
 }
 .edu-logo {
-    color: #002935;
-    
+    color: #002935;    
         font-family: Urbanist;
         font-size: 28px;
         font-style: normal;
