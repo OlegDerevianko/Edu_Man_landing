@@ -1,4 +1,9 @@
 body {
+  font-family: Urbanist;
+  margin: 0;
+}
+
+p {
   margin: 0;
 }
 
@@ -46,17 +51,15 @@ p {
 }
 
 .header {
-  display: flex;
-  justify-content: center;
+  max-width: 1920px;
+  margin: auto;
 }
 
 .container {
-  max-width: 1920px;
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
   padding: 34px 127px;
   align-items: center;
-  gap: 156px;
-  margin: 0 10px;
 }
 
 .logo {
@@ -178,55 +181,73 @@ p {
   /* 25.5px */
 }
 
-.hero {
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-container {
+  position: relative;
   max-width: 1920px;
   background-color: #002935;
+  display: flex;
+  justify-content: center;
+  background-image: url("/images/bigbook.svg"), url("/images/wave.svg"), url("/images/polygon5.svg");
+  background-repeat: no-repeat;
+  background-size: 101.636px 85.16px,  1488px 412px,  51px 51px;
+  background-position: top 574px left 217px,  top 508px  left,  top 247px left 90px;
+}
+
+.hero {
   padding-left: 395px;
   padding-top: 221px;
 }
 
 .hero-list {
   color: #FFF;
+  margin: 0;
 }
 
 .hero-item {
   margin-bottom: 30px;
 }
 
+.hero-item:last-child {
+  margin-bottom: 0;
+}
+
 .h1 {
-  color: #FFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: Urbanist;
   font-size: 25px;
-  font-style: normal;
   font-weight: 600;
   line-height: 130%;
-  /* 32.5px */
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 .h2 {
-  color: #FFF;
-  font-family: Urbanist;
   font-size: 82px;
-  font-style: normal;
   font-weight: 700;
   line-height: 129%;
+  margin-bottom: 0;
 }
 
 .edu {
   color: var(--Primary, #0D5FF9);
-  font-family: Urbanist;
   font-size: 82px;
-  font-style: normal;
   font-weight: 700;
   line-height: 129%;
-  /* 105.78px */
+}
+
+.hero-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 174%;
 }
 
 .buttons-hero {
   display: flex;
+  margin: 49px 0 0 0;
 }
 
 .buttons-item {
@@ -243,10 +264,8 @@ p {
   text-align: center;
   font-family: Urbanist;
   font-size: 17px;
-  font-style: normal;
   font-weight: 600;
   line-height: 150%;
-  /* 25.5px */
 }
 
 .contact-btn {
@@ -263,7 +282,60 @@ p {
   font-style: normal;
   font-weight: 600;
   line-height: 150%;
-  /* 25.5px */
+}
+
+.background-man {
+  background-image: url("/images/man.jpg");
+  background-size: cover;
+  border-radius: 0px 348px 0px 273px;
+  width: 696px;
+  height: 916px;
+  flex-shrink: 0;
+}
+
+.tostudent {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 100;
+  top: 392px;
+  left: 1140px;
+  width: 176px;
+  height: 227px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #FFF;
+}
+
+.student-list {
+  margin: 0;
+  padding: 35px 0 28px 0;
+}
+
+.student-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.student-item:first-child {
+  margin-bottom: 13px;
+}
+
+.number {
+  color: #222;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.student {
+  color: var(--Body, #4C5664);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 150%;
 }
 
 /*# sourceMappingURL=main.css.map */
