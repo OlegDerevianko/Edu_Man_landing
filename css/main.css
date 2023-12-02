@@ -192,7 +192,7 @@ p {
   background-color: #002935;
   display: flex;
   justify-content: center;
-  background-image: url("/images/bigbook.svg"), url("/images/wave.svg"), url("/images/polygon5.svg");
+  background-image: url("../images/bigbook.svg"), url("../images/wave.svg"), url("../images/polygon5.svg");
   background-repeat: no-repeat;
   background-size: 101.636px 85.16px,  1488px 412px,  51px 51px;
   background-position: top 574px left 217px,  top 508px  left,  top 247px left 90px;
@@ -285,7 +285,7 @@ p {
 }
 
 .background-man {
-  background-image: url("/images/man.jpg");
+  background-image: url("../images/man.jpg");
   background-size: cover;
   border-radius: 0px 348px 0px 273px;
   width: 696px;
@@ -485,7 +485,7 @@ p {
 .about {
   position: relative;
   padding: 72px 400px 72px 977px;
-  background-image: url("/images/ball.svg"), url("/images/ball1.svg"), url("/images/ball2.svg"), url("/images/Rectangle.svg"), url("/images/Rectangle1.svg");
+  background-image: url("../images/ball.svg"), url("../images/ball1.svg"), url("../images/ball2.svg"), url("../images/Rectangle.svg"), url("../images/Rectangle1.svg");
   background-repeat: no-repeat;
   background-size: auto, auto, auto, auto, auto;
   background-position: top 72px right 150px, left 1753px bottom 90px, left 250px bottom 130px, top 72px left 639px, top 498px left 600px;
@@ -499,7 +499,7 @@ p {
   width: 311px;
   height: 317px;
   border-radius: 45px;
-  background-image: url("/images/students.jpg");
+  background-image: url("../images/students.jpg");
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -512,7 +512,7 @@ p {
   width: 311px;
   height: 317px;
   border-radius: 45px;
-  background-image: url("/images/students1.jpg");
+  background-image: url("../images/students1.jpg");
   background-repeat: no-repeat;
   background-size: auto;
 }

@@ -2,11 +2,11 @@
     position: relative;
     padding: 72px 400px 72px 977px;
     background-image: 
-        url('/images/ball.svg'),
-        url('/images/ball1.svg'),
-        url('/images/ball2.svg'),
-        url('/images/Rectangle.svg'),
-        url('/images/Rectangle1.svg')           
+        url('../images/ball.svg'),
+        url('../images/ball1.svg'),
+        url('../images/ball2.svg'),
+        url('../images/Rectangle.svg'),
+        url('../images/Rectangle1.svg')           
         ;
         background-repeat: no-repeat;
         background-size:
@@ -30,7 +30,7 @@
         width: 311px;
         height: 317px;            
         border-radius: 45px;
-        background-image: url('/images/students.jpg');
+        background-image: url('../images/students.jpg');
         background-repeat: no-repeat;
         background-size:
         auto;
@@ -43,7 +43,7 @@
     width: 311px;
     height: 317px;
     border-radius: 45px;
-    background-image: url('/images/students1.jpg');
+    background-image: url('../images/students1.jpg');
     background-repeat: no-repeat;
     background-size:
         auto;

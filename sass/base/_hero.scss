@@ -5,9 +5,9 @@
     background-color: rgba(0, 41, 53, 1);
     display: flex;
     justify-content: center;
-    background-image: url('/images/bigbook.svg'), 
-    url('/images/wave.svg'),
-    url('/images/polygon5.svg'), 
+    background-image: url('../images/bigbook.svg'), 
+    url('../images/wave.svg'),
+    url('../images/polygon5.svg'), 
     // url('/images/botline.svg'),
     // url('/images/botline1.svg'),
     // url('/images/botline2.svg'),
@@ -97,7 +97,7 @@
     line-height: 150%;                
 }
 .background-man {
-    background-image: url('/images/man.jpg');
+    background-image: url('../images/man.jpg');
     background-size: cover;
     border-radius: 0px 348px 0px 273px;
     width: 696px;
