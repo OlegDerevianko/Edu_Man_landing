@@ -1,0 +1,128 @@
+.about {
+    position: relative;
+    padding: 72px 400px 72px 977px;
+    background-image: 
+        url('/images/ball.svg'),
+        url('/images/ball1.svg'),
+        url('/images/ball2.svg'),
+        url('/images/Rectangle.svg'),
+        url('/images/Rectangle1.svg')           
+        ;
+        background-repeat: no-repeat;
+        background-size:
+        auto,
+        auto,
+        auto,
+        auto,
+        auto;
+        background-position:
+        top 72px right 150px,
+        left 1753px bottom 90px,
+        left 250px bottom 130px,
+        top 72px left 639px,
+        top 498px left 600px;
+}
+.student-image {
+    position: absolute;
+        z-index: 100;
+        top: 114px;
+        left: 396px;
+        width: 311px;
+        height: 317px;            
+        border-radius: 45px;
+        background-image: url('/images/students.jpg');
+        background-repeat: no-repeat;
+        background-size:
+        auto;
+}
+.student-image1 {
+    position: absolute;
+    z-index: 99;
+    top: 250px;
+    left: 634px;
+    width: 311px;
+    height: 317px;
+    border-radius: 45px;
+    background-image: url('/images/students1.jpg');
+    background-repeat: no-repeat;
+    background-size:
+        auto;
+}
+.about-list {
+    margin: 0;
+}
+.about-item {
+    margin-bottom: 21px;
+}
+.about-item:first-child {
+    margin-bottom: 0;
+}
+.about-h1 {
+    margin: 0;    
+    color: #0D5FF9;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.about-h2 {
+    margin: 0;
+    color: #222;    
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 150%;
+}
+.about-descrition {
+    max-width: 517px;
+    color: #444;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 172%;
+}
+.our {
+    display: flex;
+    margin-bottom: 30px;
+}
+.our-list {
+    margin: 0;    
+}
+.our-item {
+    margin-bottom: 5px;
+    max-width: 298px;
+}
+.our-item:last-child {
+    margin-bottom: 0;
+}
+.check-list-icon {
+    fill: rgba(13, 95, 249, 1);
+    margin-right: 29px;
+}
+.lightbulb-icon {
+    fill: rgba(13, 95, 249, 1);
+    margin-right: 29px;
+}
+.h3-our {
+    color: #000;       
+    font-size: 24px;        
+    font-weight: 600;
+    line-height: 172%;
+    margin: 0;
+}
+.our-description {
+    
+    color: #444;        
+    font-size: 17px;        
+    font-weight: 400;
+    line-height: 172%;        
+}
+.discover {
+    margin-top: 7px;
+    width: 172px;
+    height: 55px;
+    border-radius: 5px;
+    background: var(--Primary, #0D5FF9);
+    color: var(--White, #FFF);
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 150%;
+}
