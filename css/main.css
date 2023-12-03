@@ -609,4 +609,227 @@ p {
   line-height: 150%;
 }
 
+.achievements {
+  padding: 53px 0;
+  position: relative;
+}
+
+.achievements-name {
+  margin-bottom: 52px;
+}
+
+.name-list {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.name-item {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.name-item:last-child {
+  margin-right: 0;
+}
+
+.h1-name {
+  color: #222;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 150%;
+  margin: 0;
+}
+
+.span-name {
+  color: #0D5FF9;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.line-icon {
+  width: 80px;
+  height: 4px;
+  fill: #0d5ff9;
+}
+
+.achievements-description {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.description-list {
+  width: 255px;
+  border-radius: 8px;
+  border: 2px solid #E9EEF4;
+  background: #FFF;
+  margin: 0;
+  padding-top: 7px;
+  padding-bottom: 21px;
+}
+
+.description-numbers {
+  color: #222;
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1.8px;
+  margin: 0;
+}
+
+.description-description {
+  color: #444;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.student1-icon {
+  position: absolute;
+  z-index: 100;
+  bottom: 146px;
+  left: 382px;
+  width: 55px;
+  height: 55px;
+  border-radius: 45px;
+  background-image: url("../images/people.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.learners-icon {
+  position: absolute;
+  z-index: 100;
+  bottom: 146px;
+  left: 672px;
+  width: 55px;
+  height: 55px;
+  border-radius: 45px;
+  background-image: url("../images/learners.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.instructor-icon {
+  position: absolute;
+  z-index: 100;
+  bottom: 146px;
+  left: 961px;
+  width: 55px;
+  height: 55px;
+  border-radius: 45px;
+  background-image: url("../images/instructor.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.rate-icon {
+  position: absolute;
+  z-index: 100;
+  bottom: 146px;
+  left: 1247px;
+  width: 55px;
+  height: 55px;
+  border-radius: 45px;
+  background-image: url("../images/rate.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.categories-container {
+  max-width: 1113px;
+  padding: 61px 0 82px 0;
+}
+
+.categories-name {
+  margin-bottom: 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name-list1 {
+  margin: 0;
+}
+
+.name-categories {
+  color: #0D5FF9;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 150%;
+  margin: 0;
+}
+
+.name-categories1 {
+  color: #222;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 150%;
+  margin: 0;
+}
+
+.categories-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-item1 {
+  width: 258px;
+  border-radius: 8px;
+  border: 2px solid #E9EEF4;
+  background: #FFF;
+  margin: 0;
+  padding: 46px 0 43px 0;
+  margin-right: 27px;
+  margin-bottom: 27px;
+}
+
+.card-list:nth-child(4n) {
+  margin-right: 0;
+}
+
+.card-list:nth-child(+n+5) {
+  margin-bottom: 0;
+}
+
+.course-name {
+  color: #222;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 150%;
+  margin-bottom: 7px;
+}
+
+.course-count {
+  color: #444;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 150%;
+  text-decoration-line: underline;
+}
+
 /*# sourceMappingURL=main.css.map */
