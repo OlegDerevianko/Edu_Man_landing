@@ -77,21 +77,39 @@
 .card-thumb {
     width: 72px;
     height: 72px;
+    margin-top: 46px;
+    margin-bottom: 24px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
-        background-color: #e5f8f8;
+        background-color: rgba(242, 246, 250, 1);
 }
+
 .card-link {
     width: 258px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 
     border-radius: 8px;
     border: 2px solid #E9EEF4;
 }
+
 .web-icon {
-    
+    width: 40px;
+        height: 36px;
         fill: rgba(13, 95, 249, 1);
+}
+.card-link:hover .card-thumb
+ {
+    
+    background-color: rgba(13, 95, 249, 1);
+}
+.card-link:hover .web-icon {
+    fill: rgba(255, 255, 255, 1);
 }
  .course-name {
     color: #222;
@@ -103,6 +121,8 @@
  }
  .course-count {
     color: #444;
+    display: flex;
+    align-items: center;
         text-align: center;
         font-size: 17px;
         font-weight: 500;
@@ -110,3 +130,6 @@
         text-decoration-line: underline;
         margin-bottom: 43px;
  }
+ .frame-icon {
+    margin-left: 5px;
+}
