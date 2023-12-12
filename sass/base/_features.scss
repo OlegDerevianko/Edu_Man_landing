@@ -1,10 +1,15 @@
 .features {
     padding: 100px 0 90px 0;
 }
-.features-list {
+.features-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+.features-title {
     margin: 0;
 }
-.h1-features {
+.title-features {
     color: #0D5FF9;    
     text-align: center;        
     font-size: 26px;        
@@ -12,49 +17,52 @@
     line-height: 150%; 
     margin: 0;
 }
-.h2-features {
+.description-features {
     color: #222;    
     text-align: center;       
     font-size: 45px;        
     font-weight: 700;
     line-height: 150%;  
-    margin: 0;
+    margin-bottom: 60px;
 }
+
+
+
+
 .features-card {
     display: flex;
-    justify-content: center;
-    margin-top: 60px;
+    justify-content: center;    
     gap: 27px;
+    margin: 0;    
 }
-.card {
-    max-width: 258px;
-    margin: 0;
-    // margin-right: 27px;
-    padding: 42px 33px;
-    border-radius: 8px;
-       
+.card-item {
+    width: 258px;
+         
+    border-radius: 8px;       
     box-shadow: 0px 6px 26px 0px rgba(0, 0, 0, 0.04);
 }
 // .card:last-child {
 //     margin-right: 0;
 // }
-.card-item {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 11px;   
-}
-.card-item:first-child {
-    margin-bottom: 29px;
-}
-.card-item:last-child {
-    margin-bottom: 0;
-}
-.item-m {
+// .card-item {
+//     display: flex;
+//     justify-content: center;
+//     text-align: center;
+//     margin-bottom: 11px;   
+// }
+// .card-item:first-child {
+//     margin-bottom: 29px;
+// }
+// .card-item:last-child {
+//     margin-bottom: 0;
+// }
+.card-thorm {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
+    margin-top: 25px;
+    margin-bottom: 22px;
     max-width: 65px;
     height: 65px;
     border-radius: 50%;
@@ -66,7 +74,8 @@
     font-size: 24px;       
     font-weight: 600;
     line-height: 150%; 
-    margin: 0;       
+    margin: 0; 
+    margin-bottom: 11px;
 }
 .p-item {
     color: #444;    

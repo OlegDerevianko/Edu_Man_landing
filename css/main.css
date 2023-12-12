@@ -386,11 +386,17 @@ p {
   padding: 100px 0 90px 0;
 }
 
-.features-list {
+.features-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.features-title {
   margin: 0;
 }
 
-.h1-features {
+.title-features {
   color: #0D5FF9;
   text-align: center;
   font-size: 26px;
@@ -399,50 +405,35 @@ p {
   margin: 0;
 }
 
-.h2-features {
+.description-features {
   color: #222;
   text-align: center;
   font-size: 45px;
   font-weight: 700;
   line-height: 150%;
-  margin: 0;
+  margin-bottom: 60px;
 }
 
 .features-card {
   display: flex;
   justify-content: center;
-  margin-top: 60px;
   gap: 27px;
+  margin: 0;
 }
 
-.card {
-  max-width: 258px;
-  margin: 0;
-  padding: 42px 33px;
+.card-item {
+  width: 258px;
   border-radius: 8px;
   box-shadow: 0px 6px 26px 0px rgba(0, 0, 0, 0.04);
 }
 
-.card-item {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-bottom: 11px;
-}
-
-.card-item:first-child {
-  margin-bottom: 29px;
-}
-
-.card-item:last-child {
-  margin-bottom: 0;
-}
-
-.item-m {
+.card-thorm {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
+  margin-top: 25px;
+  margin-bottom: 22px;
   max-width: 65px;
   height: 65px;
   border-radius: 50%;
@@ -456,6 +447,7 @@ p {
   font-weight: 600;
   line-height: 150%;
   margin: 0;
+  margin-bottom: 11px;
 }
 
 .p-item {
@@ -611,39 +603,35 @@ p {
 
 .achievements {
   padding: 53px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
 }
 
-.achievements-name {
-  margin-bottom: 52px;
+.achievements-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
 }
 
-.name-list {
+.achievements-title {
+  margin-bottom: 52px;
   display: flex;
   justify-content: center;
-  margin: 0;
-}
-
-.name-item {
-  display: flex;
   align-items: center;
-  margin-right: 30px;
 }
 
-.name-item:last-child {
-  margin-right: 0;
-}
-
-.h1-name {
+.achievements-name {
   color: #222;
   text-align: center;
   font-size: 28px;
   font-weight: 700;
   line-height: 150%;
-  margin: 0;
+  margin: 0 30px;
 }
 
-.span-name {
+.achievements-span {
   color: #0D5FF9;
   font-size: 28px;
   font-weight: 700;
@@ -656,13 +644,14 @@ p {
   fill: #0d5ff9;
 }
 
-.achievements-description {
+.achievements-list {
   display: flex;
   justify-content: center;
+  margin: 0;
   gap: 30px;
 }
 
-.description-list {
+.description-item {
   width: 255px;
   border-radius: 8px;
   border: 2px solid #E9EEF4;
@@ -756,18 +745,11 @@ p {
   width: 100%;
 }
 
-.categories-name {
+.categories-title {
   margin-bottom: 46px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
-.name-list1 {
-  margin: 0;
-}
-
-.name-categories {
+.title-categories {
   color: #0D5FF9;
   text-align: center;
   font-size: 26px;
@@ -776,7 +758,7 @@ p {
   margin: 0;
 }
 
-.name-categories1 {
+.description-categories {
   color: #222;
   text-align: center;
   font-size: 45px;
