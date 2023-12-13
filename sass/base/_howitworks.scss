@@ -1,0 +1,77 @@
+.howitworks {    
+    border-radius: 20px 20px 20px 0px;    
+    background-image: linear-gradient(to right,
+        rgba(0, 41, 53, 0.87), rgba(0, 41, 53, 0.87)),
+        url("/images/howitworks-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+.howitworks-container {
+    max-width: 1200px;
+    margin: auto;    
+    padding: 120px 0 100px 0;
+    
+}
+.howitworks-h1 {
+    color: #0D5FF9; 
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 150%;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.howitworks-h2 {
+    color: #FFF;    
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 0;
+    margin-bottom: 35px;
+}
+.howitworks-list {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+.howitworks-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.howitworks-thorm {
+    width: 58px;
+    height: 58px;
+    transform: rotate(-42.553deg);
+    border-radius: 12px;
+    background: #0D5FF9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.howitworks-icon {
+    width: 29px;
+        height: 29px;
+        fill: rgba(255, 255, 255, 1);
+}
+.howitworks-span {
+    color: #FFF; 
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-top: 30px;
+}
+.howitworks-text {
+    color: #FFF;    
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: 13px;
+}

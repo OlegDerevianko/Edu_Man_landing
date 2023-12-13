@@ -32,8 +32,7 @@
         border-radius: 45px;
         background-image: url('../images/students.jpg');
         background-repeat: no-repeat;
-        background-size:
-        auto;
+        background-size: auto;
 }
 .student-image1 {
     position: absolute;
@@ -45,20 +44,11 @@
     border-radius: 45px;
     background-image: url('../images/students1.jpg');
     background-repeat: no-repeat;
-    background-size:
-        auto;
-}
-.about-list {
-    margin: 0;
-}
-.about-item {
-    margin-bottom: 21px;
-}
-.about-item:first-child {
-    margin-bottom: 0;
+    background-size: auto;
 }
 .about-h1 {
-    margin: 0;    
+    margin: 0;
+    margin-bottom: 21px;
     color: #0D5FF9;
     font-size: 26px;
     font-weight: 600;
@@ -66,12 +56,14 @@
 }
 .about-h2 {
     margin: 0;
+    margin-bottom: 21px;
     color: #222;    
     font-size: 45px;
     font-weight: 700;
     line-height: 150%;
 }
 .about-descrition {
+    margin-bottom: 30px;
     max-width: 517px;
     color: #444;
     font-size: 17px;
@@ -79,19 +71,13 @@
     line-height: 172%;
 }
 .our {
-    display: flex;
+    display: flex;    
+    align-items: center;
     margin-bottom: 30px;
 }
-.our-list {
-    margin: 0;    
-}
-.our-item {
-    margin-bottom: 5px;
-    max-width: 298px;
-}
-.our-item:last-child {
-    margin-bottom: 0;
-}
+.our-list {    
+    max-width: 298px;}
+
 .check-list-icon {
     fill: rgba(13, 95, 249, 1);
     margin-right: 29px;
@@ -106,15 +92,15 @@
     font-weight: 600;
     line-height: 172%;
     margin: 0;
+    margin-bottom: 5px;
 }
-.our-description {
-    
+.our-description {    
     color: #444;        
     font-size: 17px;        
     font-weight: 400;
     line-height: 172%;        
 }
-.discover {
+.discover-btn {
     margin-top: 7px;
     width: 172px;
     height: 55px;
@@ -125,4 +111,5 @@
     font-size: 17px;
     font-weight: 600;
     line-height: 150%;
+    padding: 0;
 }

@@ -36,37 +36,52 @@
     margin: 0;    
 }
 .card-item {
-    width: 258px;
-         
+    width: 258px;        
     border-radius: 8px;       
     box-shadow: 0px 6px 26px 0px rgba(0, 0, 0, 0.04);
 }
-// .card:last-child {
-//     margin-right: 0;
-// }
-// .card-item {
-//     display: flex;
-//     justify-content: center;
-//     text-align: center;
-//     margin-bottom: 11px;   
-// }
-// .card-item:first-child {
-//     margin-bottom: 29px;
-// }
-// .card-item:last-child {
-//     margin-bottom: 0;
-// }
+.features-link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 .card-thorm {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 45px;    
     margin-bottom: 22px;
-    max-width: 65px;
+    width: 65px;
     height: 65px;
     border-radius: 50%;
     background-color: rgba(229, 248, 248, 1);    
+}
+.card-item:hover {
+    border-radius: 8px;    
+    background-color: #0D5FF9;    
+    box-shadow: 0px 6px 26px 0px rgba(0, 0, 0, 0.04);
+}
+.card-item:hover .card-thorm {
+    background: rgba(0, 0, 0, 0.10);
+}
+.card-item:hover .teacher-icon {
+    fill: rgba(255, 255, 255, 1);
+}
+.card-item:hover .player-icon {
+    fill: rgba(255, 255, 255, 1);
+}
+.card-item:hover .price-icon {
+    fill: rgba(255, 255, 255, 1);
+}
+.card-item:hover .support-icon {
+    fill: rgba(255, 255, 255, 1);
+}
+.card-item:hover .h3-item {
+    color: #FFF;
+}
+.card-item:hover .p-item {
+    color: #FFF;
 }
 .h3-item {
     color: #222;    
@@ -82,7 +97,8 @@
     text-align: center;        
     font-size: 17px;       
     font-weight: 400;
-    line-height: 161%;     
+    line-height: 161%;  
+    margin-bottom: 45px;   
 }
 .teacher-icon {
     fill: rgba(13, 95, 249, 1);

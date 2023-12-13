@@ -1,0 +1,19 @@
+.clients {
+    padding: 113px 0 37px 0;
+}
+.clients-container {
+    max-width: 1200px;
+    padding: 62px 0 72px 0;
+    border-radius: 16px;
+    margin: auto;
+    background: #002935;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clients-icon {
+    margin-right: 72px;
+}
+.clients-icon:last-child {
+    margin-right: 0;
+}

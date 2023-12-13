@@ -1,5 +1,5 @@
 
-.hero-container {
+.hero {
     position: relative;
     max-width: 1920px;
     background-color: rgba(0, 41, 53, 1);
@@ -13,7 +13,8 @@
     // url('/images/botline2.svg'),
     // url('/images/botline3.svg')
     ;
-    background-repeat: no-repeat;        background-size:
+    background-repeat: no-repeat;       
+    background-size:
     101.636px 85.16px, 
     1488px 412px, 
     51px 51px;   
@@ -22,33 +23,26 @@
     top 508px  left, 
     top 247px left 90px;
 } 
-.hero {   
+.hero-container {   
     padding-left: 395px;
     padding-top: 221px;    
 }
-.hero-list {
+.h1 {   
     color: #FFF;
-    margin: 0;
-}
-.hero-item {
-    margin-bottom: 30px;
-}
-.hero-item:last-child{
-    margin-bottom: 0;
-}
-.h1 {       
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);        
     font-size: 25px;        
     font-weight: 600;
     line-height: 130%;        
     letter-spacing: 2px;
     text-transform: uppercase;
+    margin: 0;
 }
-.h2 {          
+.h2 {     
+    color: #FFF;
     font-size: 82px;        
     font-weight: 700;
     line-height: 129%;
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 .edu {
     color: var(--Primary, #0D5FF9);        
@@ -56,17 +50,15 @@
     font-weight: 700;
     line-height: 129%;
 }
-.hero-text {            
+.hero-text {  
+    color: #FFF;
     font-size: 18px;        
     font-weight: 500;
-    line-height: 174%;        
+    line-height: 174%;    
 }
-.buttons-hero {
+.hero-buttons {
     display: flex;
-    margin: 49px 0 0 0;
-}
-.buttons-item {
-    margin-right: 26px;
+    margin-top: 49px;
 }
 .courses-btn {
     width: 173px;
@@ -74,12 +66,14 @@
     flex-shrink: 0;
     border-radius: 5px;
     background: #0D5FF9;
-    color: var(--White, #FFF);
+    color: #FFF;
     text-align: center;
     font-family: Urbanist;
     font-size: 17px;                
     font-weight: 600;
-    line-height: 150%;                
+    line-height: 150%; 
+    margin-right: 26px;   
+    padding: 0;            
 }
 .contact-btn {
     width: 173px;
@@ -94,7 +88,8 @@
     font-size: 17px;
     font-style: normal;
     font-weight: 600;
-    line-height: 150%;                
+    line-height: 150%; 
+    padding: 0;
 }
 .background-man {
     background-image: url('../images/man.jpg');
