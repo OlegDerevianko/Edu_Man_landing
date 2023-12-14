@@ -12,21 +12,8 @@
     display: flex;
     justify-content: center; 
 }
-.logo-list {
-    display: flex;
-    padding: 8px 17px 0 0;
-    margin: 0;    
-}
-.logo-item {
-    display: inline-flex;
-    align-items: center;
+.book-icon {
     margin-right: 10px;
-}
-.logo-item:last-child {
-    margin-right: 0;
-}
-.book-logo {
-    justify-content: center;
 }
 .edu-logo {
     color: #002935;    
@@ -44,9 +31,11 @@
 }
 .button-courses {
     display: flex;
-    padding: 13px 23px;
-    justify-content: center;
+    padding: 0 38px 0 23px;
+    justify-content: space-between;
     align-items: center;
+    width: 260px;
+    height: 60px;
     gap: 112px;
     border-radius: 4px;
     border: 1px solid #ACB5C5;
@@ -117,11 +106,16 @@
     height: 55px;    
     flex-shrink: 0;
     border-radius: 5px;
-    background: var(--Primary, #0D5FF9);
-    color: var(--White, #FFF);
+    background: #FFF;
+    color: #222;
     text-align: center;
     font-family: Urbanist;
     font-size: 17px;
     font-weight: 600;
     line-height: 150%;
+    padding: 0;
+}
+.reg-button:hover {
+    background: #0D5FF9;
+        color: #FFF;
 }

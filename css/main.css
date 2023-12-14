@@ -72,24 +72,8 @@ p {
   justify-content: center;
 }
 
-.logo-list {
-  display: flex;
-  padding: 8px 17px 0 0;
-  margin: 0;
-}
-
-.logo-item {
-  display: inline-flex;
-  align-items: center;
+.book-icon {
   margin-right: 10px;
-}
-
-.logo-item:last-child {
-  margin-right: 0;
-}
-
-.book-logo {
-  justify-content: center;
 }
 
 .edu-logo {
@@ -110,9 +94,11 @@ p {
 
 .button-courses {
   display: flex;
-  padding: 13px 23px;
-  justify-content: center;
+  padding: 0 38px 0 23px;
+  justify-content: space-between;
   align-items: center;
+  width: 260px;
+  height: 60px;
   gap: 112px;
   border-radius: 4px;
   border: 1px solid #ACB5C5;
@@ -195,13 +181,19 @@ p {
   height: 55px;
   flex-shrink: 0;
   border-radius: 5px;
-  background: var(--Primary, #0D5FF9);
-  color: var(--White, #FFF);
+  background: #FFF;
+  color: #222;
   text-align: center;
   font-family: Urbanist;
   font-size: 17px;
   font-weight: 600;
   line-height: 150%;
+  padding: 0;
+}
+
+.reg-button:hover {
+  background: #0D5FF9;
+  color: #FFF;
 }
 
 .hero {
@@ -213,7 +205,7 @@ p {
   background-image: url("../images/bigbook.svg"), url("../images/wave.svg"), url("../images/polygon5.svg");
   background-repeat: no-repeat;
   background-size: 101.636px 85.16px,  1488px 412px,  51px 51px;
-  background-position: top 574px left 217px,  top 508px  left,  top 247px left 90px;
+  background-position: top 554px left 217px,  top 508px  left,  top 247px left 90px;
 }
 
 .hero-container {
@@ -395,7 +387,7 @@ p {
 }
 
 .features-container {
-  max-width: 1200px;
+  max-width: 1106px;
   margin: 0 auto;
   width: 100%;
 }
@@ -644,7 +636,7 @@ p {
 }
 
 .achievements-container {
-  max-width: 1200px;
+  max-width: 1106px;
   margin: 0 auto;
   width: 100%;
 }
@@ -774,7 +766,7 @@ p {
 }
 
 .categories-container {
-  max-width: 1200px;
+  max-width: 1106px;
   margin: 0 auto;
   width: 100%;
 }
@@ -818,7 +810,7 @@ p {
 .card-item1 {
   background: #FFF;
   margin: 0;
-  margin-right: 27px;
+  margin-right: 20px;
   margin-bottom: 27px;
 }
 
@@ -900,7 +892,7 @@ p {
 }
 
 .howitworks-container {
-  max-width: 1200px;
+  max-width: 1106px;
   margin: auto;
   padding: 120px 0 100px 0;
 }
@@ -975,12 +967,166 @@ p {
   margin-top: 13px;
 }
 
+.instructor {
+  padding: 56px 0 40px 0;
+}
+
+.instructor-container {
+  width: 1106px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.instructor-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.instructor-h1 {
+  color: #2B73FA;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 150%;
+  margin-bottom: 5px;
+}
+
+.instructor-h2 {
+  color: #222;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 150%;
+  margin: 0;
+}
+
+.view-button {
+  display: flex;
+  align-items: center;
+}
+
+.instructor-btn {
+  width: 180px;
+  height: 55px;
+  border-radius: 5px;
+  background: #0D5FF9;
+  color: #FFF;
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 150%;
+  padding: 0;
+}
+
+.instructor-list {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-top: 60px;
+  gap: 30px;
+}
+
+.instructor-item {
+  width: 253px;
+  padding-top: 34px;
+  border-radius: 8px;
+  border: 1px solid #E9EEF4;
+  background: #FFF;
+  box-shadow: 0px 6px 26px 0px rgba(0, 0, 0, 0.04);
+}
+
+.instructor-thorm {
+  margin: auto;
+  width: 166px;
+  height: 166px;
+  margin-bottom: 26px;
+  border-radius: 166px;
+}
+
+.masum-billah {
+  background: url(/images/masum_billah-min.jpg), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ekram-hossain {
+  background: url(/images/ekram-hossain-min.jpg), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.motasim-billah {
+  background: url(/images/matasim_billah-min.jpg), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.monaym-billah {
+  background: url(/images/monaym_billah-min.jpg), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.instructor-name {
+  color: #222;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.instructor-job {
+  color: #0D5FF9;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 22px;
+}
+
+.instructor-classes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 54px;
+  border-top: 1px solid #DDD;
+}
+
+.classes-icon {
+  fill: #7F7F7F;
+  margin-left: 12px;
+}
+
+.classes-icon:first-child {
+  margin-left: 0;
+}
+
+.number-student {
+  color: #7F7F7F;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 150%;
+  padding-right: 12px;
+  border-right: 1px solid #DDD;
+}
+
+.number-course {
+  color: #7F7F7F;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
 .clients {
   padding: 113px 0 37px 0;
 }
 
 .clients-container {
-  max-width: 1200px;
+  max-width: 1106px;
   padding: 62px 0 72px 0;
   border-radius: 16px;
   margin: auto;
