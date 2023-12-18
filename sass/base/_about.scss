@@ -2,20 +2,20 @@
     position: relative;
     padding: 72px 400px 72px 977px;
     background-image: 
-        url('../images/ball.svg'),
+       url('../images/ball.svg'),
         url('../images/ball1.svg'),
         url('../images/ball2.svg'),
         url('../images/Rectangle.svg'),
         url('../images/Rectangle1.svg')           
         ;
-        background-repeat: no-repeat;
-        background-size:
+    background-repeat: no-repeat;
+    background-size:
         auto,
         auto,
         auto,
         auto,
         auto;
-        background-position:
+    background-position:
         top 72px right 150px,
         left 1753px bottom 90px,
         left 250px bottom 130px,
@@ -24,15 +24,15 @@
 }
 .student-image {
     position: absolute;
-        z-index: 100;
-        top: 114px;
-        left: 396px;
-        width: 311px;
-        height: 317px;            
-        border-radius: 45px;
-        background-image: url('../images/students.jpg');
-        background-repeat: no-repeat;
-        background-size: auto;
+    z-index: 100;
+    top: 114px;
+    left: 396px;
+    width: 311px;
+    height: 317px;            
+    border-radius: 45px;
+    background-image: url('../images/students.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 .student-image1 {
     position: absolute;
